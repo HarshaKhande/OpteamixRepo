@@ -1,0 +1,12 @@
+﻿{
+  "Name": "1.0.0",
+  "Type": "AppVersion",
+  "Id": "gron-V68JUeBgsG63Uhfxw",
+  "Reference": "_NtYeq-yd0iAFDtTZ7fDyw/gron-V68JUeBgsG63Uhfxw",
+  "ParentRef": "_NtYeq-yd0iAFDtTZ7fDyw/QWMvV3UaV0yrySBZvpYU2g",
+  "Created": "2024-05-26T10:37:18.7664727Z",
+  "Updated": "2024-05-26T10:37:18.7664727Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

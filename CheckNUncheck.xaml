@@ -1,0 +1,115 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="CheckNUncheck" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="648,660" sap2010:WorkflowViewState.IdRef="CheckNUncheck_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="CheckNUncheck" sap:VirtualizedContainerService.HintSize="512,595" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: The Internet" sap:VirtualizedContainerService.HintSize="450,507" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="4e4cd0f6-7f69-4070-9172-a561960c1403" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,267" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheck Action="Toggle" DisplayName="Check/Uncheck 'checkbox 1'" sap:VirtualizedContainerService.HintSize="354,182" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="4e4cd0f6-7f69-4070-9172-a561960c1403" Version="V3">
+              <uix:NCheck.Target>
+                <uix:TargetAnchorable BrowserURL="https://the-internet.herokuapp.com/checkboxes" CVScreenId="b29f026c-783e-4f22-aa91-d4308d947a47" CvElementArea="156, 243, 17, 17" CvType="CheckBox" DesignTimeRectangle="158, 245, 14, 14" DesignTimeScaleFactor="1.100000023841858" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' class='' aaname='' /&gt;" Guid="45998b8c-3d60-4851-b6df-a0a3ca5e113e" InformativeScreenshot="a754990dc22d67c4d31c1ac55d71fa94.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Internet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="b29f026c-783e-4f22-aa91-d4308d947a47" CvTextArea="175, 244, 89, 16" CvTextArgument="checkbox 1" CvType="Text" DesignTimeRectangle="176, 244, 88, 16" ElementType="Text" Guid="768abbcb-8f48-41cc-bb54-825204fb1f13" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheck.Target>
+            </uix:NCheck>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="b054dc74abd032466ff7334f9e0e6ee9.jpg" Selector="&lt;html app='chrome.exe' title='The Internet' /&gt;" Title="The Internet" Url="https://the-internet.herokuapp.com/checkboxes" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

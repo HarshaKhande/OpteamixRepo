@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Firefox: Swag Labs",
+  "Type": "Screen",
+  "Id": "nzQ4UVkUFka-BRJ9EXL0zQ",
+  "Reference": "_NtYeq-yd0iAFDtTZ7fDyw/nzQ4UVkUFka-BRJ9EXL0zQ",
+  "ParentRef": "_NtYeq-yd0iAFDtTZ7fDyw/gron-V68JUeBgsG63Uhfxw",
+  "Created": "2024-05-26T10:37:18.7698854Z",
+  "Updated": "2024-05-26T10:37:18.7698854Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
